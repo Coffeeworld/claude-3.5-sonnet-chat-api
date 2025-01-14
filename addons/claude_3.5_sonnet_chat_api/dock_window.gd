@@ -34,8 +34,8 @@ func _on_send_pressed():
 	var message = input_field.text
 
 	var body = JSON.stringify({
-		"messages": [{"role": "user", "content": message}],
-		"model": "claude-3-sonnet-20240229",
+		"messages": [ {"role": "user", "content": message}],
+		"model": "claude-3-5-sonnet-20241022",
 		"max_tokens": 1024
 	})
 

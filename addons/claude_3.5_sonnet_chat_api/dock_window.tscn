@@ -24,6 +24,7 @@ unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
 text = "Enter your message for Claude..."
+wrap_mode = 1
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
 layout_mode = 2

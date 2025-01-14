@@ -4,7 +4,7 @@ extends EditorPlugin
 const PluginName = "ClaudeAPI"
 
 var dock
-const Dock : PackedScene = preload("res://addons/claude_3.5_sonnet_chat_api/dock_window.tscn")
+const Dock: PackedScene = preload("res://addons/claude_3.5_sonnet_chat_api/dock_window.tscn")
 
 func _enter_tree():
 	if not ProjectSettings.has_setting("plugins/claude_api/api_key"):
